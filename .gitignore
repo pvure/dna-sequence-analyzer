@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (you might want to keep small samples)
+data/*.fasta
+data/*.fa
+!data/sample_*.fasta
+
+# Output files
+results/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
